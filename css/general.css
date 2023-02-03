@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Montserrat:wght@400;500&display=swap');
+
+
+
+.header {
+    position: fixed;
+    z-index: 100;
+    background: rgba(15, 82, 186, 1);
+    width: 100%;
+    height: 101px;
+    left: 0px;
+    top: 0px;
+
+}
+
+h2 {
+    position: absolute;
+    left: 65px;
+    right: 86.6%;
+    top: 28px;
+    bottom: 92.97%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 19px;
+    /* or 48% */
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+p {
+    position: absolute;
+    left: 11.46%;
+    right: 74.65%;
+    top: 45px;
+    bottom: 91.31%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 19px;
+    /* or 95% */
+
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+.button {
+    position: absolute;
+    width: 90px;
+    height: 45px;
+    left: 87%;
+    top: 29px;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+
+
+}
+
+.button>img {
+    display: block;
+}
+
+.button>p {
+    position: absolute;
+    width: 13px;
+    height: 22px;
+    left: 40px;
+    top: 10px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+
+
+.card {
+    top: 190px;
+    left: 15px;
+}
+
+.card-body {
+    display: flex;
+}
+
+.card-title {
+    text-align: calc();
+}
+
+.price {
+    width: 90%;
+    left: 0;
+    top: 60.7%;
+    bottom: 30.18%;
+    line-height: 10rem;
+    color: #000000;
+    font-family: "Montserrat";
+    font-weight: bolder;
+}
+
+.btn {
+    position: absolute;
+    left: 5%;
+    bottom: 10px;
+    width: 90%;
+}
+
+.cart {
+    position: absolute;
+    width: 486px;
+    height: 1024px;
+    left: 954px;
+    top: 0px;
+
+    background: #0F52BA;
+    box-shadow: -5px 0px 6px rgba(0, 0, 0, 0.13);
+
+    
+}
+
+
+.bought {
+    position: absolute;
+    width: 486px;
+    height: 97px;
+    left: -47px;
+    top: 771px;
+
+    background: #000000;
+}
+
+.text_group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total {
+    position: absolute;
+    width: 80px;
+    height: 15px;
+    left: 1001px;
+    top: 870px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 15px;
+    /* identical to box height, or 54% */
+
+
+    color: #FFFFFF;
+}
+
+.final_value {
+    /* R$798 */
+
+
+    position: absolute;
+    width: 92px;
+    height: 15px;
+    left: 1285px;
+    top: 870px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 15px;
+    /* identical to box height, or 54% */
+
+
+    color: #FFFFFF;
+}
